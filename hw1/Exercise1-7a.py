@@ -37,8 +37,7 @@ import pla
 # If there are not enough parameters, optionally write out the number of required parameters
 # followed by the list of their names and default values. One parameter per line,
 # name followed by tab followed by default value.
-# LIONsolver will use this list to provide a user friendly interface for the component's evaluation.
-#
+# LIONsolver will use this list to provide a user friendly interface for the component's evaluation.  #
 if len(sys.argv) < 2:
     sys.stdout.write ("2\nNumber of tests\t1000\nNumber of training points\t10\n")
     sys.exit(0)
